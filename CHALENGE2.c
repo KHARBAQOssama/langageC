@@ -3,11 +3,11 @@
 
 int main()
 {
-    float fahrenheit;
-    printf("ENTRER LA TEMPERATURE EN FAHRENHEIT : ");
-    scanf("%f",&fahrenheit);
-    float result = (fahrenheit-32)* 5/9 ;
-    printf( "%f F= %f c",fahrenheit,result );
+    float C;
+    printf("ENTRER LA TEMPERATURE EN C : ");
+    scanf("%f",&C);
+    float result = (C*1.8)+32 ;
+    printf( "%f C= %f F",C,result );
 
     return 0;
 }

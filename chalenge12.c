@@ -5,10 +5,10 @@
     {
         int num, NumR;
 
-		printf("ENTER THE THREE DIGIT NUMBER:- ");
+		printf("entrer le nombre entier à trois chiffres  ");
 		scanf("%d",&num);
 
-		printf("AFTER REVERSE RESULT IS:- ");
+		printf("aprés reverse le nombre est : ");
 		NumR = num%10;
 		printf("%d",NumR);
 		NumR = num/10;

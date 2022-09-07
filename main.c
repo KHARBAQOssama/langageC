@@ -3,7 +3,11 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    int age ;
+    printf("entre your age");
+    scanf("%d",&age);
+    printf("your age is, %d", age);
+    printf("\n");
     int myAge;
     myAge = 23;
     printf ("%d", myAge );
